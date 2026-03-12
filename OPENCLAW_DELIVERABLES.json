@@ -1,8 +1,10 @@
 {
   "status": "smoke_verified",
-  "repoUrl": "",
+  "repoUrl": "https://github.com/rishabhcli/smoke-test-hackathon",
   "demoUrl": "",
-  "screenshots": [],
+  "screenshots": [
+    "artifacts/screenshots/smoke-home.jpg"
+  ],
   "verification": {
     "install": "not_required",
     "test": "passed",
@@ -19,6 +21,8 @@
     "Built via Codex one-shot runner in the smoke-test workspace.",
     "README.md now documents the minimal app and the available npm commands.",
     "Host verification passed with `npm test` and `npm run verify`.",
+    "Public GitHub repo created and pushed from the local workspace.",
+    "Browser screenshot captured from the locally served app.",
     "Codex sandbox self-check reported EPERM on loopback bind, but the same checks passed from the host runtime."
   ]
 }

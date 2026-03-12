@@ -29,8 +29,10 @@
   "submission": {
     "devpostDraftUrl": "",
     "repoName": "smoke-test-hackathon",
-    "repoUrl": "",
-    "status": "intake"
+    "repoUrl": "https://github.com/rishabhcli/smoke-test-hackathon",
+    "status": "repo_published"
   },
-  "notes": []
+  "notes": [
+    "Smoke-test repository published to GitHub to validate the OpenClaw -> Codex -> GitHub path."
+  ]
 }

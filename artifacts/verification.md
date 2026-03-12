@@ -13,9 +13,10 @@
 - smoke: passed on host runtime via `npm run verify`
 
 ## Assets
-- screenshots:
+- screenshots: `artifacts/screenshots/smoke-home.jpg`
 - demo:
 
 ## Notes
 - Codex created the app and scripts through the one-shot runner.
 - Codex's own sandboxed verification hit `EPERM` when binding `127.0.0.1`, but the exact same test and verify commands passed from the host runtime.
+- Browser screenshot captured from the locally served app through OpenClaw browser tooling.
