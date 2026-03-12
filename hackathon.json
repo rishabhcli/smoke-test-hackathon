@@ -1,0 +1,36 @@
+{
+  "slug": "smoke-test-hackathon",
+  "title": "Smoke Test Hackathon",
+  "source": {
+    "platform": "devpost",
+    "url": "",
+    "discoveredAt": ""
+  },
+  "timeline": {
+    "deadlineAt": "",
+    "timezone": "",
+    "submissionWindowNotes": ""
+  },
+  "tracks": [],
+  "judgingCriteria": [],
+  "requiredAssets": {
+    "repoPublic": true,
+    "screenshots": true,
+    "demoVideo": false,
+    "tryItOutUrl": false,
+    "customQuestions": []
+  },
+  "rules": {
+    "allowedPriorWork": "",
+    "teamSize": "",
+    "aiUsage": "",
+    "specialConstraints": []
+  },
+  "submission": {
+    "devpostDraftUrl": "",
+    "repoName": "smoke-test-hackathon",
+    "repoUrl": "",
+    "status": "intake"
+  },
+  "notes": []
+}

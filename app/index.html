@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smoke Test Hackathon</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: "Avenir Next", "Segoe UI", sans-serif;
+        background: #f7f4ec;
+        color: #18212f;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background:
+          radial-gradient(circle at top right, rgba(216, 162, 90, 0.35), transparent 30%),
+          linear-gradient(160deg, #fffaf1 0%, #f2efe5 100%);
+      }
+
+      main {
+        width: min(680px, calc(100vw - 2rem));
+        padding: 2rem;
+        border-radius: 24px;
+        background: rgba(255, 255, 255, 0.82);
+        border: 1px solid rgba(24, 33, 47, 0.12);
+        box-shadow: 0 20px 60px rgba(24, 33, 47, 0.12);
+      }
+
+      p {
+        line-height: 1.6;
+        margin: 0 0 1rem;
+      }
+
+      .eyebrow {
+        margin-bottom: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        font-size: 0.8rem;
+        color: #925d24;
+      }
+
+      h1 {
+        margin: 0 0 1rem;
+        font-size: clamp(2rem, 4vw, 3.5rem);
+        line-height: 0.95;
+      }
+
+      .card {
+        padding: 1rem 1.25rem;
+        border-radius: 16px;
+        background: #18212f;
+        color: #f8efe3;
+      }
+
+      code {
+        font-family: "SFMono-Regular", "Consolas", monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">Minimal Static App</p>
+      <h1>Smoke Test Hackathon</h1>
+      <p>
+        This workspace now contains a tiny static landing page that can be served
+        locally with Node and verified without any extra dependencies.
+      </p>
+      <div class="card">
+        <p><strong>Run:</strong> <code>npm run serve</code></p>
+        <p><strong>Verify:</strong> <code>npm run verify</code></p>
+      </div>
+    </main>
+  </body>
+</html>

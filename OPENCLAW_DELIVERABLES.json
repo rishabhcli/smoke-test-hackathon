@@ -1,0 +1,24 @@
+{
+  "status": "smoke_verified",
+  "repoUrl": "",
+  "demoUrl": "",
+  "screenshots": [],
+  "verification": {
+    "install": "not_required",
+    "test": "passed",
+    "build": "not_required",
+    "smoke": "passed"
+  },
+  "submission": {
+    "storyReady": false,
+    "answersReady": false,
+    "draftFilled": false,
+    "submitted": false
+  },
+  "notes": [
+    "Built via Codex one-shot runner in the smoke-test workspace.",
+    "README.md now documents the minimal app and the available npm commands.",
+    "Host verification passed with `npm test` and `npm run verify`.",
+    "Codex sandbox self-check reported EPERM on loopback bind, but the same checks passed from the host runtime."
+  ]
+}

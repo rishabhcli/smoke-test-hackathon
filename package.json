@@ -1,0 +1,12 @@
+{
+  "name": "smoke-test-hackathon",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "serve": "node scripts/server.mjs",
+    "start": "node scripts/server.mjs",
+    "test": "node --test tests/smoke.test.mjs",
+    "verify": "node scripts/verify.mjs"
+  }
+}

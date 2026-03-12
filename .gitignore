@@ -1,0 +1,7 @@
+node_modules/
+.DS_Store
+artifacts/screenshots/*.png
+artifacts/screenshots/*.jpg
+artifacts/screenshots/*.jpeg
+artifacts/demo/*.mp4
+artifacts/codex-last-message.txt
